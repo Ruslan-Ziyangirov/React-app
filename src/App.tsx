@@ -3,10 +3,10 @@ import './App.css';
 import Form from "./pages/formSignIn/Form";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import RegistrationForm from "./pages/formRegistration/RegistrationForm";
-import {Collection} from "./pages/CollectionPage/Collection";
+import {Collection} from "./pages/сollectionPage/Collection";
 import {Provider} from "mobx-react";
 import MainStore from "./components/stores/mainStore";
-import {FilmPage} from "./pages/FilmPage/FilmPage";
+import {FilmPage} from "./pages/filmPage/FilmPage";
 
 
 const App = () => (

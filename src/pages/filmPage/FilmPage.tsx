@@ -1,12 +1,12 @@
 import {observer} from "mobx-react";
-import {useStores} from "../CollectionPage/Collection";
+import {useStores} from "../сollectionPage/Collection";
 import {FC, useEffect, useState} from "react";
 import {FilmModel} from "../../models/FilmModel";
 import {useParams} from "react-router-dom";
 import add from "../../add.svg";
 import './FilmPage.sass';
 import Header from "../../components/header/Header";
-import {Film} from "../../components/collection/Film/Film";
+import {Film} from "../../components/collection/film/Film";
 
 type Params = {
     id:string;

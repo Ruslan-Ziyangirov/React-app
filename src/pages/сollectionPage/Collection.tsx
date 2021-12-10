@@ -2,7 +2,7 @@ import Header from "../../components/header/Header";
 import NavigationBar from "../../components/collection/navigationbar/NavigationBar";
 import './CollectionPage.sass';
 import {MobXProviderContext, observer} from "mobx-react";
-import {Film} from "../../components/collection/Film/Film";
+import {Film} from "../../components/collection/film/Film";
 import {useContext} from "react";
 import {MainStore} from "../../components/stores/mainStore";
 

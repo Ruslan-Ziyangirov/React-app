@@ -3,7 +3,7 @@ import './Form.sass';
 import logo from "../../logo.svg";
 import {NavLink} from "react-router-dom";
 import {set} from "mobx";
-import {Loading} from "../../components/Loading/Loading";
+import {Loading} from "../../components/loading/Loading";
 
 
 const Form = () => {
