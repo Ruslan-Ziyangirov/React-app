@@ -1,12 +1,12 @@
 import {observer} from "mobx-react";
-import {useStores} from "./Collection";
+import {useStores} from "../CollectionPage/Collection";
 import {FC, useEffect, useState} from "react";
-import {FilmModel} from "../stores/FilmModel";
+import {FilmModel} from "../../models/FilmModel";
 import {useParams} from "react-router-dom";
 import add from "../../add.svg";
-import './FilmPage.css';
-import Header from "../header/Header";
-import {Film} from "./Film";
+import './FilmPage.sass';
+import Header from "../../components/header/Header";
+import {Film} from "../../components/collection/Film/Film";
 
 type Params = {
     id:string;
@@ -26,8 +26,7 @@ export const FilmPage =observer(() =>{
 
 
     return(
-       <div>
-           {
+       <div>{
                filmPage && (
                    <div>
                    <Header/>

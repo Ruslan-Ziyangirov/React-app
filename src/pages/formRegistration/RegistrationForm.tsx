@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import './RegistrationForm.css';
-import logo from "../../../logo.svg";
+import './RegistrationForm.sass';
+import logo from "../../logo.svg";
 import {NavLink} from "react-router-dom";
 
 const RegistrationForm = () => {

@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Form from "./components/signIn/form/Form";
+import Form from "./pages/formSignIn/Form";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import RegistrationForm from "./components/registration/form/RegistrationForm";
-import {Collection} from "./components/collection/Collection";
+import RegistrationForm from "./pages/formRegistration/RegistrationForm";
+import {Collection} from "./pages/CollectionPage/Collection";
 import {Provider} from "mobx-react";
 import MainStore from "./components/stores/mainStore";
-import {FilmPage} from "./components/collection/FilmPage";
+import {FilmPage} from "./pages/FilmPage/FilmPage";
 
 
 const App = () => (

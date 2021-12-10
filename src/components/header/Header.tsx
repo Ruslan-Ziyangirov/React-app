@@ -1,4 +1,4 @@
-import './Header.css';
+import './Header.sass';
 import collections from "../../collections.svg";
 import add from "../../add.svg";
 import logo from "../../Logo_Short.svg";
@@ -10,8 +10,6 @@ import profile from "../../profile.svg"
 
 
 const Header = () =>{
-
-
     return(
         <div className="header">
             <div className="menu">
@@ -35,10 +33,8 @@ const Header = () =>{
                     <img src={profile} className="image-profile" alt="image-profile"/>
                 </div>
             </div>
-
         </div>
     );
-
 };
 
 export default Header

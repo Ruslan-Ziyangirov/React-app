@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
-import './Form.css';
-import logo from "../../../logo.svg";
+import './Form.sass';
+import logo from "../../logo.svg";
 import {NavLink} from "react-router-dom";
 import {set} from "mobx";
-import {Loading} from "../Loading/Loading";
+import {Loading} from "../../components/Loading/Loading";
 
 
 const Form = () => {
@@ -97,7 +97,6 @@ const Form = () => {
             </div>
         </div>
     );
-
 };
 
 export default Form

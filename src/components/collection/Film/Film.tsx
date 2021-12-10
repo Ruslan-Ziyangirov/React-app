@@ -1,10 +1,9 @@
-import './Film.css';
+import './Film.sass';
 import {NavLink} from "react-router-dom";
 
 export const Film = (props:any) => {
 
     return(
-
             <div className="film">
                 <NavLink to={`/collection/${props.film.id}`} >
                     <p>{props.film.rate}</p>
@@ -12,8 +11,5 @@ export const Film = (props:any) => {
                     <h5>{props.film.title}</h5>
                 </NavLink>
             </div>
-
-
     )
-
 };

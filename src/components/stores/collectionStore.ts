@@ -8,7 +8,7 @@ import Drunk from '../../Drunk.png';
 import Soul from '../../Soul.png';
 import Godzilla from '../../Godzilla.png';
 import {makeObservable, observable} from 'mobx';
-import {FilmModel} from "./FilmModel";
+import {FilmModel} from "../../models/FilmModel";
 
 
 
@@ -87,7 +87,6 @@ export class CollectionStore {
             description: 'Протагонист пытается обезвредить террориста с помощью уникальной технологии. Блокбастер-пазл Кристофера Нолана',
             genre: 'Фантастика'
         }
-
     ]
 }
 

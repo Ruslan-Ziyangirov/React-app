@@ -1,6 +1,6 @@
 import {NavLink} from "react-router-dom";
 import changeButtonList from "../../../changebuttonlist.svg";
-import './NavigationBar.css';
+import './NavigationBar.sass';
 
 const NavigationBar = () =>{
 

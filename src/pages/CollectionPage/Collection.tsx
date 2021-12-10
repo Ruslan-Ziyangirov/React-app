@@ -1,10 +1,10 @@
-import Header from "../header/Header";
-import NavigationBar from "./navigationbar/NavigationBar";
-import './CollectionPage.css';
+import Header from "../../components/header/Header";
+import NavigationBar from "../../components/collection/navigationbar/NavigationBar";
+import './CollectionPage.sass';
 import {MobXProviderContext, observer} from "mobx-react";
-import {Film} from "./Film";
+import {Film} from "../../components/collection/Film/Film";
 import {useContext} from "react";
-import {MainStore} from "../stores/mainStore";
+import {MainStore} from "../../components/stores/mainStore";
 
 export function useStores(): MainStore {
     return useContext(MobXProviderContext) as MainStore;
